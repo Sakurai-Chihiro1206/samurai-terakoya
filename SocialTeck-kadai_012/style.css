@@ -1,0 +1,43 @@
+#cases {
+  margin: 40px auto;
+  width: 100%;
+}
+
+#cases > ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+#cases > ul > li {
+  width: 33%;
+  margin: 20px;
+}
+
+.cases-li {
+  background-color: white;
+  min-height: 400px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.cases-img {
+  width: 100%;
+}
+
+h2::after {
+  content: url(images/line.png);
+  margin-left: 10px;
+}
+
+.name {
+  color: blue;
+  font-size: 19px;
+}
+
+.txt {
+  font-size: 14px;
+}
+
+.cases-txtbox {
+  padding: 10px 20px 10px 20px;
+}

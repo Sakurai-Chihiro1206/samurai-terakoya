@@ -1,0 +1,41 @@
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    font-size: 20px;
+}
+
+.kadai-ttl {
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 1.2em;
+    border-bottom: solid 3px rgb(115, 115, 114);
+    text-shadow: 2px 2px rgb(115, 115, 114);
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+
+.m {
+    color: skyblue;
+}
+.p {
+    color: rgb(255, 192, 203);
+}
+
+.kadai-ttl-red {
+    color: rgb(255, 192, 203);
+}
+
+.kadai-ttl-blue {
+    color: skyblue;
+}
+
+
+
+.kadai-container {
+    text-align: center;
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
+
+#basic .sub-txt-b {
+    font-weight: bold;
+}

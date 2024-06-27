@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.header-txt {
+    margin: 0 0 20px 0 ;
+    border: solid 1px  rgb(244, 79, 79);
+    background-color:  rgb(244, 79, 79);
+    color: white;
+    text-align: center;
+}
+
+.main-content {
+    margin: 10px;
+}
+
+#parent {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contents {
+    border: solid 3px rgb(238, 204, 204) ;
+    flex-basis: 25% ;
+    padding: 10px 15px ;
+    margin: 20px 0 ;
+    text-align: center;
+}
+
+.tokyo {
+    font-size: 25px;
+    border-bottom: solid 3px rgb(236, 122, 122) ;
+}
+
+.tokyo::before {
+    content: '●';
+    color: rgb(239, 111, 139) ;
+  }
+
+.contents p:nth-of-type(2)::first-letter {
+    font-weight: bold;
+    color: rgb(97, 206, 249);
+}
+
+.img-tag img{
+    margin: 10px 0 ;
+    width: 70%;
+}
+
+.footer-content {
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+}
+
+.footer-content a {
+    color: rgb(255, 255, 255);
+}
+
+.footer-content a :hover {
+    color : rgb(193, 234, 251) ;
+}
+
+.footer-content a:visited {
+    color: rgb(245, 178, 168)
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .tokyo {
+        font-size: 30pxpx;
+    }
+    
+    .top-txt ,.bottom-txt {
+        font-size: 25px;
+    }
+
+    #parent {
+     display: block;
+    }
+}
